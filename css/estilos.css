@@ -15,8 +15,8 @@
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(255, 204, 0);
     padding: 0px 13px;
-    font-size: 28px;
-    font-family: 'Lobster', cursive;
+    font-size: 23px;
+    font-family: 'Alfa Slab One', cursive;
     overflow: hidden;
 }
 
@@ -76,14 +76,10 @@ header .texto-header {
     color: rgb(235, 195, 20);
     font-size: 50px;
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 50px;
     font-family: 'Shrikhand', cursive;
 }
-.contenedor {
-    background-color: rgb(34, 35, 36);
-    
 
-}
 .contenedor__elegirnos--porque {
     display: flex;
     justify-content: space-evenly;
@@ -119,8 +115,8 @@ header .texto-header {
 }
 .contenido__texto--blanco {
     color:#fff;
-    padding: 0px 0px 30px 15px;
-    font-weight: 300;
+    padding: 30px 0px 30px 15px;
+    font-size: 20px;
     text-align: justify;
     width: 80%;
 }
@@ -172,7 +168,7 @@ header .texto-header {
 
 /*FOOTER*/
 footer {
-    background: #7e7d7c;
+    background: #1a1919;
     padding: 10px 0 10px 0;
     margin: auto;
     overflow: hidden;
@@ -509,6 +505,7 @@ footer p {
     margin: auto;
     flex-direction: row;
     justify-content: space-evenly;
+
 }
 
 
@@ -614,10 +611,13 @@ footer p {
     align-content: center;
     
 }
-
 .contenedor__texto--parrafo {
-    font-size: 60px;
-    color: #ffffff;
+    font-size: 30px;
+    color: #161616;
+}
+.contenedor__texto--parrafo2 {
+    font-size: 30px;
+    color: #fff;
 }
 
 .text-shadow-drop-br {
