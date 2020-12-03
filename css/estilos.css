@@ -72,7 +72,7 @@ header .texto-header {
 }
 
 /*ELEGIRNOS*/
-.title {
+.contenedor__elegirnos--title {
     color: rgb(235, 195, 20);
     font-size: 50px;
     text-align: center;
@@ -80,7 +80,7 @@ header .texto-header {
     font-family: 'Shrikhand', cursive;
 }
 
-.contenedor__elegirnos--porque {
+.contenedor__elegirnos--cuerpo {
     display: flex;
     justify-content: space-evenly;
 
