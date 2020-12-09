@@ -558,7 +558,7 @@ footer p {
     position: absolute;
     bottom: 0;
     left: 0;
-    transform: translateY(1000px);
+    transform: translateY(900px);
     border-width: 15vh 0 0 100vw;
     border-style: solid;
     border-color: #202020 #FFDF6C #FFDF6C #FFDF6C;
