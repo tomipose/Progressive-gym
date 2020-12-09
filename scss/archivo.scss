@@ -336,7 +336,7 @@ footer {
     height: 100vh;
 }
 
-.titulo {
+.actividades__popup--titulo {
     color: rgb(245, 248, 43);
     line-height: 45px;
     margin-left: 15px;
@@ -417,7 +417,7 @@ footer {
     border-radius: 50%;
 }
 
-.popup {
+.actividades__popup {
     position: fixed;
     top: 0;
     left: 0;
@@ -431,13 +431,13 @@ footer {
     transform: scale(0);
 }
 
-.popup:target {
+.actividades__popup:target {
     transform: scale(1);
     transition: transform 0.5s ease-in-out;
     visibility: visible;
 }
 
-.fondito {
+.actividades__popup--fondo {
     background-color: rgb(15, 15, 15);
     width: 70vw;
     border-radius: 15%;
@@ -451,7 +451,7 @@ footer {
     font-family: 'Open Sans', sans-serif;
 }
 
-.subrayado {
+.galeria__titulo {
     text-decoration: underline;
     color: rgb(255, 204, 0);
     font-family: 'Ultra', serif;
@@ -460,7 +460,7 @@ footer {
     margin-top: 10px;
 }
 
-.gale {
+.galeria__section--grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 95%;
@@ -480,14 +480,14 @@ footer {
     }
 }
 
-.gale>a {
+.galeria__section--grid>a {
     display: block;
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
 }
 
-.gale a:hover img {
+.galeria__section--grid a:hover img {
     filter: blur(3px);
     transform: rotate(10deg);
     scale: (1.3);
@@ -510,13 +510,13 @@ footer {
         width: auto;
         height: auto;
     }
-    :target {
-        transform: scale(1);
-        transition: transform 0.5s ease-in-out;
-    }
+}
+.laibox:target {
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out;
 }
 
-.sig {
+.galeria__flecha--laibox {
     display: block;
     background: rgb(184, 221, 49);
     color: black;
@@ -697,7 +697,7 @@ footer {
     position: relative;
 }
 
-.pande {
+.texto__servicios {
     color: rgb(237, 230, 225);
     padding: 15px;
     display: block;
@@ -708,7 +708,7 @@ footer {
     font-size: 30px;
 }
 
-.pande1 {
+.texto__servicios--cambio {
     color: rgba(48, 226, 167, 0.973);
     padding: 15px;
     display: block;
@@ -719,7 +719,7 @@ footer {
     font-size: 30px;
 }
 
-.pande2 {
+.texto__servicios--cambio1 {
     color: rgb(237, 230, 225);
     padding: 15px;
     display: block;
@@ -731,7 +731,7 @@ footer {
     text-decoration: underline;
 }
 
-.pande3 {
+.texto__servicios--cambio2 {
     color: rgb(208, 115, 226);
     padding: 15px;
     display: block;
@@ -743,13 +743,13 @@ footer {
     font-size: 30px;
 }
 
-.domi {
+.contenedor__servicio {
     height: 300px;
     width: 300px;
     display: inline-block;
 }
 
-.envio {
+.contenedor__servicio--imagen {
     height: 200px;
     width: 200px;
     display: inline-block;
@@ -758,7 +758,7 @@ footer {
     margin-top: 15px;
 }
 
-.facebook {
+.contenedor__logo--facebook {
     height: 100px;
     width: 100px;
     display: inline-block;
@@ -767,7 +767,7 @@ footer {
     margin-top: 15px;
 }
 
-.insta {
+.contenedor__logo--instagram {
     height: 100px;
     width: 100px;
     display: inline-block;
@@ -776,7 +776,7 @@ footer {
     margin-top: 15px;
 }
 
-.wat {
+.contenedor__logo--whatsapp {
     height: 100px;
     width: 100px;
     display: inline-block;
@@ -785,7 +785,7 @@ footer {
     margin-top: 15px;
 }
 
-.atp {
+.contenedor__enlace--atp {
     text-decoration: none;
     color: rgb(237, 220, 164);
 }
@@ -801,7 +801,7 @@ footer {
     display: inline-block;
 }
 
-.preguntaFrecuente {
+.servicios__texto--preguntaFrecuente {
     font-size: 30px;
     color: #fff;
     margin: 5px 0 10px 10px;
