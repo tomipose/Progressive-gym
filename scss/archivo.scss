@@ -387,8 +387,7 @@ footer {
         overflow: hidden;
         box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
         border-radius: 35%;
-
-        :hover {
+        &:hover {
             img {
                 filter: blur(3px);
                 transform: rotate(10deg);
