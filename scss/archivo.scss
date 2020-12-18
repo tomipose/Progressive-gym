@@ -694,68 +694,56 @@ footer {
     font-family: 'Open Sans', sans-serif;
     background-color: #000000;
     background-image: url("https://www.transparenttextures.com/patterns/random-grey-variations.png");
-    position: relative;
+    
 }
 
-.texto__servicios {
-    color: rgb(237, 230, 225);
-    padding: 15px;
-    display: block;
-    margin-top: 5px;
-    text-align: center;
-    align-content: center;
-    font-family: 'Lato', sans-serif;
-    font-size: 30px;
-}
-
-.texto__servicios--cambio {
-    color: rgba(48, 226, 167, 0.973);
-    padding: 15px;
-    display: block;
-    margin-top: 5px;
-    text-align: center;
-    align-content: center;
-    font-family: 'Lato', sans-serif;
-    font-size: 30px;
-}
-
-.texto__servicios--cambio1 {
-    color: rgb(237, 230, 225);
-    padding: 15px;
-    display: block;
-    margin-top: 5px;
-    text-align: center;
-    align-content: center;
-    font-family: 'Lato', sans-serif;
-    font-size: 30px;
-    text-decoration: underline;
-}
-
-.texto__servicios--cambio2 {
-    color: rgb(208, 115, 226);
-    padding: 15px;
-    display: block;
-    margin-top: 5px;
+.carousel {
     margin-bottom: 10px;
+    
+}
+
+.servicios__articulo--responsive {
+    background-image: url(../img-proto/12.jpeg);
     text-align: center;
-    align-content: center;
-    font-family: 'Lato', sans-serif;
-    font-size: 30px;
+    height: 651px;
+    width: 100vw;
+    opacity: 0.8;
+}
+.servicios__articulo--textores {
+    padding: 15px;
+    color:rgb(250, 250, 250);
+    font-size: 20px;
+    width: auto;
 }
 
-.contenedor__servicio {
-    height: 300px;
-    width: 300px;
-    display: inline-block;
+
+@media screen and (min-width: 768px) {
+    .servicios__articulo--responsive {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .carousel {
+        display: none;
+    }
 }
 
-.contenedor__servicio--imagen {
-    height: 200px;
-    width: 200px;
-    display: inline-block;
-    margin: 0;
-    margin-left: 700px;
-    margin-top: 15px;
+
+.servicios__texto--articulo {
+    margin-bottom: 5%;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    text-align: center;
+    
+}
+
+
+.servicios__contenedor--cuerpo {
+    margin-top: 5%;
+    margin-bottom: 7%;
+    padding: 10px;
+    text-align: center;
+    background-color: #FFDF6C;
 }
 
 .contenedor__logo--facebook {
@@ -785,26 +773,10 @@ footer {
     margin-top: 15px;
 }
 
-.contenedor__enlace--atp {
-    text-decoration: none;
-    color: rgb(237, 220, 164);
-}
-
-.filo {
-    color: rgb(237, 230, 225);
-    padding: 15px;
-    margin-top: 5px;
-    text-align: center;
-    align-content: center;
-    font-family: 'Lato', sans-serif;
-    font-size: 30px;
-    display: inline-block;
-}
-
 .servicios__texto--preguntaFrecuente {
     font-size: 30px;
     color: #fff;
-    margin: 5px 0 10px 10px;
+    margin: 5px 0px 0px 30px;
     font-family: 'Castoro', serif;
 }
 
