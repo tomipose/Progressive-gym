@@ -375,7 +375,7 @@ footer {
 
 /* class de fotos actividades */
 .foto {
-    width: 400px;
+    
     height: 400px;
 }
 
@@ -440,6 +440,73 @@ footer {
     background-color: rgb(15, 15, 15);
     width: 70vw;
     border-radius: 15%;
+}
+
+
+@media screen and (max-width: 1010px) {
+    .actividades__popup--titulo {
+        font-size: 20px;
+        margin: 0;
+    }
+    .textoFuncional {
+        padding: 15px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 716px) {
+    .textoFuncional {
+        
+        font-size: 15px;
+        padding: 3px;
+    }
+    .acti {
+        a {
+            display: flex;
+            justify-content: center;
+            border-radius: 0%;
+            place-items: flex-end;
+        }
+    }
+}
+@media screen and (max-width: 572px) {
+
+    .actividades__popup--titulo {
+        font-size: 15px;
+        padding: 5px;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 480px) {
+
+    .actividades__popup--titulo {
+        font-size: 15px;
+        padding: 5px;
+        margin: 0;
+    }
+    .textoFuncional {
+        padding: 5px;
+        font-size: 11px;
+
+    }
+    .cerrar {
+        right: 20px;
+    }
+}
+@media screen and (max-width: 374px) {
+
+    .actividades__popup--titulo {
+        font-size: 15px;
+        padding: 5px;
+        margin: 0;
+    }
+    .textoFuncional {
+        padding: 5px;
+        font-size: 9px;
+
+    }
+    .cerrar {
+        right: 19px;
+    }
 }
 
 /*Galeria*/
